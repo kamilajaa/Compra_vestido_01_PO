@@ -1,0 +1,15 @@
+{
+  "name": "cucumber-playwright-automation",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes BDD com Cucumber e Playwright",
+ "scripts": {
+  "test": "cucumber-js features/*.feature --require steps/*.steps.js"
+
+}
+  ,
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "@playwright/test": "^1.40.0",
+    "playwright": "^1.40.0"
+  }
+}
