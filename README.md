@@ -1,4 +1,5 @@
 # Teste de Compra - Automation Exercise
+![Web E2E Tests](https://github.com/kamilajaa/Compra_vestido_01_PO/actions/workflows/web-tests.yml/badge.svg)
 
 Projeto de automacao de testes usando Cucumber + Playwright + Page Objects.
 
