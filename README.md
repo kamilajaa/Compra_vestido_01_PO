@@ -3,6 +3,43 @@
 
 Projeto de automacao de testes usando Cucumber + Playwright + Page Objects.
 
+# Teste de Compra - Automation Exercise
+![Web E2E Tests](https://github.com/kamilajaa/Compra_vestido_01_PO/actions/workflows/web-tests.yml/badge.svg)
+
+Projeto de automacao de testes usando Cucumber + Playwright + Page Objects.
+
+## 🏗️ Evolucao do projeto
+
+Este projeto e a **versao final** de uma linha de aprendizado em automacao de testes web:
+
+| Versao | Abordagem | O que aprendi | Repo |
+|--------|-----------|---------------|------|
+| v1 - Linear | Script unico, sem reuso | Entender o fluxo E2E completo | [Ver codigo](https://github.com/kamilajaa/Compra_vestido_01) |
+| v2 - Steps | Steps reutilizaveis | Modularizar a logica de teste | [Ver codigo](https://github.com/kamilajaa/Compra_vestido_01_steps) |
+| v3 - Page Object | Separacao de localizadores | Manutenibilidade e reutilizacao | [Ver codigo](https://github.com/kamilajaa/Compra_vestido_01) |
+| **v4 - Cucumber + PO (este)** | BDD + Page Object + CI/CD | Comunicacao com stakeholders e entrega continua | ✅ Aqui |
+
+&gt; 💡 **Nota:** Os repositorios v1 a v3 sao projetos de aprendizado intermediarios, arquivados para consulta. Este repo (v4) representa a abordagem atual e em producao.
+
+---
+
+## O que esse projeto faz
+
+Testa o fluxo completo de compra no site [Automation Exercise](https://automationexercise.com/):
+1. Faz login
+2. Escolhe dois produtos
+3. Coloca no carrinho
+4. Finaliza a compra
+5. Preenche os dados do cartao
+
+## Como rodar os testes
+
+### 1. Instalar as dependencias (so na primeira vez)
+
+```bash
+npm install
+npx playwright install
+
 ## O que esse projeto faz
 
 Testa o fluxo completo de compra no site [Automation Exercise](https://automationexercise.com/):
