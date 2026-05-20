@@ -9,6 +9,8 @@ on:
 jobs:
   cucumber-run:
     runs-on: ubuntu-latest
+    env:
+      CI: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
