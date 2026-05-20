@@ -15,7 +15,7 @@ let browser;
 let page;
 
 Before(async function () {
-  browser = await chromium.launch({ headless: false });
+browser = await chromium.launch({ headless: process.env.CI ? true : false });
   const context = await browser.newContext();
   await context.clearCookies();
 
